@@ -15,3 +15,12 @@
   padding: 15px;
   color: whitesmoke;
 }
+
+.pokerequest-view {
+  padding: 20px;
+}
+
+.random-btn {
+  padding: 10px;
+  cursor: pointer;
+}
