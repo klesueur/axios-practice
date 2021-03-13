@@ -20,8 +20,8 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10px 35px;
-  letter-spacing: .04em;
+  /* padding: 10px 35px; */
+  letter-spacing: .05em;
   border-radius: 6px;
 }
 
@@ -35,8 +35,10 @@ button {
   font-size: 1.5em;
   font-style: italic;
   font-weight: bold;
-  background: url(https://wallpapermemory.com/uploads/661/pokemon-background-1080p-279112.jpg);
-  background-size: cover;
-  /* background: radial-gradient(circle,  rgb(0, 177, 162) 20%, rgb(0, 168, 36) 100%); */
-  /* color: white; */
+  /* padding: 30px 85px; */
+  height: 96px;
+  width: 407px;
+  background: url('https://wallpapermemory.com/uploads/661/pokemon-background-1080p-279112.jpg');
+  background-position: center;
+  background-size: 407px 170px;
 }

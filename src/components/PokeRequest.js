@@ -27,7 +27,10 @@ const PokeRequest = () => {
 
     return (
         <div className='pokerequest-view'>
-            <button className='random-btn' onClick={() => randomPokemon()}> Get Random Pokemon! </button>
+            <button className='random-btn' onClick={() => randomPokemon()}>
+                <img  />
+                Get Random Pokemon!
+            </button>
             <div>{mappedPokemon}</div>
         </div>
     ); 
