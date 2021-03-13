@@ -26,6 +26,8 @@ button {
 }
 
 .pokerequest-view {
+  height: calc(100vh - 98px);
+  width: 100%;
   padding: 70px;
   font-family: 'Titillium Web', sans-serif;
   display: flex;
@@ -58,12 +60,12 @@ REMOVE NEON BORDER ATTEMPT - TOO CHEESY*/
 }
 
 .mapped-poke-area {
-  width: 690px;
+  width: 100%;
   height: 315px;
 }
 
 .pokemon-card {
-  margin: 95px;
+  /* margin: 95px; */
   height: 50px;
   width: 160px;
   display: flex;
@@ -73,7 +75,7 @@ REMOVE NEON BORDER ATTEMPT - TOO CHEESY*/
 .card-left-side {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 25%;
 }
 
 .card-header {
@@ -84,7 +86,7 @@ REMOVE NEON BORDER ATTEMPT - TOO CHEESY*/
 }
 
 .card-right-side {
-  width: 50%;
+  width: 25%;
 }
 
 .pokemon-imgs {

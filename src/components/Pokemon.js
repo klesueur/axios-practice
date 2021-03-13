@@ -15,7 +15,7 @@ const Pokemon = (props) => {
             <div className='card-right-side'>
                 <div className='pokemon-imgs'>
                     <img src={sprites.front_default} />
-                    <img src={sprites.back_default} />
+                    {/* <img src={sprites.back_default} /> */}
                 </div>
             </div>
         </div>
